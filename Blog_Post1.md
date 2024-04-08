@@ -29,7 +29,7 @@ With the absolute path being /Users/adrianlaksana/Coding/lecture1, it outputs an
 While the absolute path was /Users/adrianlaksana/Coding/lecture1, when running `ls` without any arguments, the output was a singular line that lists out the current directories under the `pwd` lecture1. This did not output and error.
 
 ## `ls` with path to directory
-![Image](ls_directory)
+![Image](ls_directory.png)
 
 While the absolute path was /Users/adrianlaksana/Coding/lecture1, when running `ls` to directory of "messages" it lists out the text files contained inside the messages directory in a single line. This did not output an error.
 
