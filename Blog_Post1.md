@@ -1,6 +1,6 @@
 # **Lab Report 1**
 ***
-
+This week I learned some basic commands used in a Terminal to navigate and read through content. The three commands I will be discussing are `cd`, `ls`, and `cat`.
 
 # `cd` Command
 
