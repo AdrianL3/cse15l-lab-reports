@@ -4,7 +4,7 @@
 # `cd` Command
 
 ## `cd` no arguments
-//put image here
+![Image](cd_no_args.png)
 
 When provided no arguments, the command changes the directory to the parent directory of the local device. In my case, my absolute path was /Users/adrianlaksana/Coding/lecture1  and was brought back to the root directory of my device when running the command. This command outputs no error.
 
