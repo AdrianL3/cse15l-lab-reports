@@ -39,7 +39,7 @@ While the absolute path was /Users/adrianlaksana/Coding/lecture1, when running `
 
 
 
-# `cat` Command#
+# `cat` Command
 
 ## `cat` no arguments
 //put image here
