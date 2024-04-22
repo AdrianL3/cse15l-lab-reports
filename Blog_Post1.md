@@ -7,7 +7,7 @@ This week I learned some basic commands used in a Terminal to navigate and read 
 ## `cd` no arguments
 ![Image](cd_no_args.png)
 
-When provided no arguments, the command changes the directory to the `home` directory of the local device. In my case, my absolute path was `/Users/adrianlaksana/Coding/lecture1`  and was brought back to the `home` directory. This command outputs no error.
+When provided no arguments, the command changes the directory to the `home` directory of the local device. In my case, my absolute path was `/Users/adrianlaksana/Coding/lecture1`  and was brought back to the `home` directory `/Users/adrianlaksana`. This command outputs no error.
 
 ## `cd` with path to directory
 ![Image](cd_directory.png)
