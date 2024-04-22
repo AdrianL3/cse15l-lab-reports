@@ -12,7 +12,7 @@ When provided no arguments, the command changes the directory to the `home` dire
 ## `cd` with path to directory
 ![Image](cd_directory.png)
 
-When providing a directory, it changes the working directory to the specified argument provided. In the example, the `pwd` was the root folder, and the child directory that was being `cd` to was "Coding". This output is not an error. However, this command only works if the argument is a child directory to the current working directory. If the current working directory is a child directory and the argument is a parent directory, it outputs an error. 
+When providing a directory, it changes the working directory to the specified argument provided. In the example, the `pwd` was the root folder, and the child directory that was being `cd` to was `Coding`. This output is not an error. However, this command only works if the argument is a child directory to the current working directory. If the current working directory is a child directory and the argument is a parent directory, it outputs an error. 
 
 ## `cd` with path to file
 ![Image](cd_to_file.png)
