@@ -1,7 +1,7 @@
 # **Lab Report 2**
 ***
 # Part 1: Creating a Chat Server#=
-//code image here
+![Image](chatserver.png)
 
 ## Using `/add=message`  
 ![Image](chat1.png)
@@ -29,7 +29,7 @@ Then the `start` method is called. Then `parseInt` is called and which is used t
   - `String[] texts = {"Hello%201%20am%20good", "user"}`  
   - `String user = "swag:`  
   - `String text = "Hello%201%20am%20good"`  
-  - `message = "jpolitz: Hello "<br>" swag: Hello I am good`  
+  - `message = "jpolitz: Hello <br> swag: Hello I am good`  
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**  
 
@@ -38,3 +38,22 @@ For this specific request, the fields that are changed are `url`, `parameters[1]
 Which methods in your code are called?
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+![Image](chat2.png)
+**Which Methods in your code are called?**  
+In this case, the same methods are called as the first example.
+
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**  
+The methods called have the same arguments from the previous. However, the fields have changed.
+
+**Fields**  
+  - `url = localhost:2027/add-message?s=Where%20are%20you&user=jpolitz`  
+  - `int port = args[0]` where `args[0]=2027`  
+  - `String[] parameters = {"s", "Where%20are%20you&user", "jpolitz"`  
+  - `String[] texts = {"Where%20are%20you", "user"}`  
+  - `String user = "jpolitz:`  
+  - `String text = "Where%20are%20you"`  
+  - `message = "jpolitz: Hello <br> swag: Hello I am good <be> jpolitz: Where are you`  
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**  
+Similar to the first example, the fields of this class change with the changes apparent in the `URL` inputted by the user. To achieve the relevant values for the fields, `.split` is the primary method for creating array objects that can be indexed.
