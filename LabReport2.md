@@ -11,17 +11,17 @@ Then the `start` method is called. Then `parseInt` is called and which is used t
   
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**  
 `main`: Takes the terminal arguments inputted by the user.  
-  Sets `int port = args[0]` where `args[0]=2027`  
+  - Sets `int port = args[0]` where `args[0]=2027`  
 `start`: Has two arguments, with the first being `port` and the second being a new object of the `Handler` class.  
 `handleRequest`: Takes a `url` object of type `URI`.  
 `getPath`: takes no arguments  
 `.contains`: In this case, the argument in this instance of calling the method is `.contains("add-message")`.  
 `getQuery`: takes no arguments  
 `split`: In this case, the argument in this instance of calling the method is `.split("=")` and `.split.("&")`.  
-  `String[] parameters = {"s", "Hello%201%20am%20good&user", "swag"`  
-  `String[] texts = {"Hello%201%20am%20good", "user"}`  
-  `String user = "swag:`  
-  `String text = "Hello%201%20am%20good"`  
+  - `String[] parameters = {"s", "Hello%201%20am%20good&user", "swag"`  
+  - `String[] texts = {"Hello%201%20am%20good", "user"}`  
+  - `String user = "swag:`  
+  - `String text = "Hello%201%20am%20good"`  
 `equals`: In this case, the argument in this instance of calling the method is `.equals("s")`.  
 localhost:2027/add-message?s=Hello%201%20am%20good&user=swag
 
