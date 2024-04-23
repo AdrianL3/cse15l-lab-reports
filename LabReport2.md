@@ -4,7 +4,7 @@
 //code image here
 
 ## Using `/add=message`  
-//chat1 image  
+![Image](chat1.png)
 **Which Methods in your code are called?**  
 
 First, the `main` method is called and checks for a properly started server with the correct amount of arguments.  
