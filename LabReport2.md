@@ -4,6 +4,7 @@
 ![Image](chatserver.png)
 
 ## Using `/add=message`  
+### Example 1
 ![Image](chat1.png)
 **Which Methods in your code are called?**  
 
@@ -39,6 +40,7 @@ Which methods in your code are called?
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
+### Example 2
 ![Image](chat2.png)
 **Which Methods in your code are called?**  
 In this case, the same methods are called as the first example.
