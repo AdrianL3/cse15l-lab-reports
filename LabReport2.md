@@ -1,6 +1,6 @@
 # **Lab Report 2**
 ***
-# Part 1: Creating a Chat Server#=
+# Part 1: Creating a Chat Server
 ![Image](chatserver.png)
 
 ## Using `/add=message`  
