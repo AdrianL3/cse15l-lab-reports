@@ -57,4 +57,17 @@ The methods called have the same arguments from the previous. However, the respe
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**  
 
-Similar to the first example, the fields of this class change with the changes apparent in the `URL` inputted by the user. To achieve the relevant values for the fields, `.split` is the primary method for creating array objects that can be indexed.
+Similar to the first example, the fields of this class change with the changes apparent in the `URL` inputted by the user. In this case, the message and user are changed, which results in the respective fields changing. To achieve the relevant values for the fields, `.split` is the primary method for creating array objects that can be indexed.  
+***
+# Part 2  
+## 1 Private Key
+![Image](private.png)  
+
+## 2 Public Key
+![Image](public.png)  
+
+## 3 Logging into ieng6  
+![Image](ieng6.png)  
+***
+# Part 3
+In weeks 2 and 3, I learned that it is possible to access another computer remotely through the terminal. This idea interests me because I am curious about the possibilities a user can have with remote access. It makes it possible to access a faster or "stronger" computer that can handle more intensive tasks than one's local machine can.
