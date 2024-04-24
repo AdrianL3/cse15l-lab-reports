@@ -54,7 +54,7 @@ The methods called have the same arguments from the previous. However, the respe
   - `String[] texts = {"Where%20are%20you", "user"}`  
   - `String user = "jpolitz:`  
   - `String text = "Where%20are%20you"`  
-  - `message = "jpolitz: Hello <br> swag: Hello I am good <be> jpolitz: Where are you`  
+  - `message = "jpolitz: Hello <br> swag: Hello I am good <be> jpolitz: Where are you"`  
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**  
 
