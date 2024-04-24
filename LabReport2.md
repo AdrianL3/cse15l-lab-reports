@@ -8,8 +8,8 @@
 ![Image](chat1.png)
 **Which Methods in your code are called?**  
 
-First, the `main` method is called and checks for a properly started server with the correct amount of arguments.  
-Then the `start` method is called. Then `parseInt` is called and which is used to chain and call the `handleRequest` method. Within this method, the methods `getPath`, `equals`, `contains`, `getQuery`, and `split` are called.  
+In order to run the server, first, the `main` method is called and checks for a properly started server with the correct amount of arguments.  
+Then the `parseInt` method is called. Then `start` is called and uses `port` and the `handleRequest` method. Within this method, the methods `getPath`, `equals`, `contains`, `getQuery`, and `split` are called.  
   
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**  
 
@@ -41,7 +41,7 @@ For this specific request, the fields that are changed are `url`, `parameters[1]
 ### Example 2
 ![Image](chat2.png)
 **Which Methods in your code are called?**  
-In this case, the same methods are called as the first example.
+In this case, the same methods are called as the first example. However, since the server is already started, `main` no longer needs to be called and `start` the server. Therefore, the new url inputted by the user is handled by the `handleRequest` method.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**  
 
@@ -58,7 +58,7 @@ The methods called have the same arguments from the previous. However, the respe
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**  
 
-Similar to the first example, the fields of this class change with the changes apparent in the `URL` inputted by the user. In this case, the message and user are changed, which results in the respective fields changing. To achieve the relevant values for the fields, `.split` is the primary method for creating array objects that can be indexed.  
+Similar to the first example, the fields of this class change with the changes apparent in the `URL` inputted by the user. In this case, the message and user are changed, which results in the respective fields changing because the arrays will have different values stored. To achieve the relevant values for the fields, `.split` is the primary method for creating array objects that can be indexed.  
 ***
 # Part 2  
 ## 1 Private Key
