@@ -16,6 +16,7 @@ Then the `start` method is called. Then `parseInt` is called and which is used t
 **Methods**  
 `main`: Takes the terminal arguments inputted by the user.  
 `start`: Has two arguments, with the first being `port` and the second being a new object of the `Handler` class.  
+`parseInt`: Takes `args[0]` and parses it to an Integer to become the `port`.
 `handleRequest`: Takes a `url` object of type `URI`.  
 `getPath`: takes no arguments  
 `.contains`: In this case, the argument in this instance of calling the method is `.contains("add-message")`.  
@@ -34,7 +35,7 @@ Then the `start` method is called. Then `parseInt` is called and which is used t
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**  
 
-For this specific request, the fields that are changed are `url`, `parameters[1]`, `parameters[2]`, `texts`, `user`, `text`, and `message`. This is changed depending on the inputted url by the user. In this case, all the respective fields are changed in order to add the inputted message and username from the input. The `port` field remains the same because it is running on the same server that was initially started.
+For this specific request, the fields that are changed are `url`, `parameters[1]`, `parameters[2]`, `texts`, `user`, `text`, and `message`. This is changed depending on the inputted url by the user. In this case, all the respective fields are changed to add the inputted message and username from the input. The `port` field remains the same because it runs on the same server initially started.
 
 
 ### Example 2
