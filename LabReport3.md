@@ -29,7 +29,7 @@ public void testReverseInPlace() {
 ```
 static void reverseInPlace(int[] arr) {  
     for(int i = 0; i < arr. length; i += 1) {  
-    arrlil = arrlarr.length - i - 11;  
+    arr[i] = arr[arr.length - i - 11];  
  }
 ```
 
@@ -43,3 +43,6 @@ static void reverseInPlace(int[] arr) {
     }  
   }
   ```
+
+### 5. 
+The method's description is intended to reverse and return the original inputted array. Therefore, to fix the bug, a new temp array must be created for the reassignment after the elements have been reversed. Then, the for loop must be changed to `arr.length / 2` to prevent reversing after the index is past the halfway point.
