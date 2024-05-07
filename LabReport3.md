@@ -2,7 +2,14 @@
 ***
 ## Part 1 - Bugs ArrayList ReverseInPlace
 ### 1. Fail-inducing Input
-
+```
+@Test
+  public void testReverseInPlace1() {
+    int[] input2 = {1, 2, 3, 4};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{4,3,2,1}, input2);
+  }
+```
 
   ### 2. Non-Fail-Inducing Input
 ```
