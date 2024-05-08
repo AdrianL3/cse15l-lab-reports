@@ -22,7 +22,7 @@ public void testReverseInPlace() {
 ```  
 
  ### 3. The Symptom
- //put image here
+![Image](failTest.png)
 
 ### 4. Debugging
 **Before**
@@ -46,7 +46,7 @@ static void reverseInPlace(int[] arr) {
 
 ### 5. 
 The method's description is intended to reverse and return the original inputted array. Therefore, to fix the bug, the for loop must be changed to `for (int i = 0; arr.length / 2; i += 1)` to prevent reversing after the index is past the halfway point. Then, a new temp array must be created so the back half of the array can be assigned to the front half of the array. 
-
+***
 ## Part 2: Find Command
 
 ### find -type
