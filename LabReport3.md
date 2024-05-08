@@ -11,7 +11,7 @@
   }
 ```
 
-  ### 2. Non-Fail-Inducing Input
+### 2. Non-Fail-Inducing Input
 ```
 @Test  
 public void testReverseInPlace() {  
@@ -21,7 +21,7 @@ public void testReverseInPlace() {
 }
 ```  
 
- ### 3. The Symptom
+### 3. The Symptom
 ![Image](failTest.png)
 
 ### 4. Debugging
