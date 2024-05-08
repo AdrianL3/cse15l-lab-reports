@@ -93,7 +93,7 @@ This example uses the command to find all the regular files to the directory. Th
 adrianlaksana@Adrians-MacBook-Pro technical % find . -name "journal.pbio.0020001.txt"
 ./plos/journal.pbio.0020001.txt
 ```
-This example shows using -name to find a specified file name. This is useful because the output will show the absolute path of a file which a user can use.
+This example shows using `-name` to find a specified file name. This is useful because the output will show the absolute path of a file which a user can use.
 
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find ./government/Alcohol_Problems -name "*.txt"
@@ -102,7 +102,7 @@ adrianlaksana@Adrians-MacBook-Pro technical % find ./government/Alcohol_Problems
 ./government/Alcohol_Problems/DraftRecom-PDF.txt
 ./government/Alcohol_Problems/Session4-PDF.txt
 ```
-This example shows using -name to find all the files in the directory containing `*.txt`. This is useful because you can find all the files in a directory with a specified type or ending.
+This example shows using `-name` to find all the files in the directory containing `*.txt`. This is useful because you can find all the files in a directory with a specified type or ending.
 
 ### find -path
 ```
@@ -112,7 +112,7 @@ adrianlaksana@Adrians-MacBook-Pro technical % find . -path "*pro*"
 ./government/Media/Barnes_pro_bono.txt
 ./government/Media/pro_bono_efforts.txt
 ```
-This examples shows using -path to find all paths with the characters "pro" in it. This is useful because a user can find all files in a directory with a short amount of key characters rather than the entire file name or type.
+This examples shows using `-path` to find all paths with the characters "pro" in it. This is useful because a user can find all files in a directory with a short amount of key characters rather than the entire file name or type.
 
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find . -path "./government/Post_Rate_Comm/*"
@@ -131,7 +131,7 @@ adrianlaksana@Adrians-MacBook-Pro technical % find . -path "./government/Post_Ra
 ./government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 ./government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
-This example shows using -path to output files in a specified directory. This is useful if a user wants to iterate through every file that is contained within a directory.
+This example shows using `-path` to output files in a specified directory. This is useful if a user wants to iterate through every file that is contained within a directory.
 
 ### find -not
 ```
@@ -139,7 +139,7 @@ adrianlaksana@Adrians-MacBook-Pro technical % find ./911report -not -path "*chap
 ./911report
 ./911report/preface.txt
 ```
-This example shows using the not command to output all the files that do not have `chapter` in its path name. This is useful to obtain all the files that does not meet a specifed requirement.
+This example shows how to use the `—not` command to output all the files without `chapter` in their path name. This is useful for obtaining all the files that do not meet a specified requirement.
 
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find . -not -name "*.txt"
