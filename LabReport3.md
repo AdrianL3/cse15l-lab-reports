@@ -50,6 +50,7 @@ The method's description is intended to reverse and return the original inputted
 ## Part 2: Find Command
 
 ### find -type
+source: https://math2001.github.io/article/bashs-find-command/  
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find . -type d
 .
@@ -89,6 +90,8 @@ adrianlaksana@Adrians-MacBook-Pro technical % find ./911report -type f
 This example uses the command to find all the regular files to the directory. This is useful because it would allow us to access and iterate all the files that aren't directories or subdirectories.
 
 ### find -name
+source: https://math2001.github.io/article/bashs-find-command/  
+ChatGPT Prompt: "how to use find -name"
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find . -name "journal.pbio.0020001.txt"
 ./plos/journal.pbio.0020001.txt
@@ -105,6 +108,8 @@ adrianlaksana@Adrians-MacBook-Pro technical % find ./government/Alcohol_Problems
 This example shows using `-name` to find all the files in the directory containing `*.txt`. This is useful because you can find all the files in a directory with a specified type or ending.
 
 ### find -path
+source: https://math2001.github.io/article/bashs-find-command/  
+ChatGPT Prompt: "find -path"
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find . -path "*pro*"
 ./government/Gen_Account_Office/Paper_Walker11-2002_acpro122.txt
@@ -134,6 +139,8 @@ adrianlaksana@Adrians-MacBook-Pro technical % find . -path "./government/Post_Ra
 This example shows using `-path` to output files in a specified directory. This is useful if a user wants to iterate through every file that is contained within a directory.
 
 ### find -not
+source: https://math2001.github.io/article/bashs-find-command/  
+ChatGPT Prompt: "find -not"
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find ./911report -not -path "*chapter*"
 ./911report
