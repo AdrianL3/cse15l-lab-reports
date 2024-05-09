@@ -51,6 +51,8 @@ The method's description is intended to reverse and return the original inputted
 
 ### find -type
 source: https://math2001.github.io/article/bashs-find-command/  
+ChatGPT Prompt: "how to use find -type"
+"show an example for each -type"
 ```
 adrianlaksana@Adrians-MacBook-Pro technical % find . -type d
 .
