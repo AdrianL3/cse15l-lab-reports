@@ -8,7 +8,7 @@ In this step, I logged into the Ieng6 server using the command `ssh` followed by
 
 
 ## Step 5: Forking the Repo
-![Image](fork.png)  
+![Image](gitClone.png)  
 Buttons Pressed:  
 `<git clone> <ctrl + v> <enter>`  
 In this step, I forked the repository by cloning the repository from the original repository to my local machine. This was done by copying the SSH link from the original repository and using the `git clone` command followed by the copied link. This created a local copy of the repository on my machine.
