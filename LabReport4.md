@@ -67,7 +67,7 @@ Buttons Pressed:
 This step opens the Vim text editor to write a commit message. I entered a message describing the changes made to the code and saved and exited the file.
 
 ![Image](wqCommit.png)  
-`i <space> fixed <space> bugs <esc> :wq <enter>`  
+`fixed <space> bugs <esc> :wq <enter>`  
 I entered the commit message "fixed bugs" and saved and exited the file using the commands `:wq`.
 
 
